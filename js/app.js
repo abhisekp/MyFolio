@@ -12,6 +12,9 @@ app.config(['$routeProvider', function ($routeProvider) {
   }).when('/contact-me', {
     templateUrl: 'templates/contactme.html',
     controller: 'ContactCtrl'
+  }).when('/mail', {
+    templateUrl: 'templates/mail.html',
+    controller: 'MailCtrl'
   }).otherwise({
     redirectTo: '/'
   });
@@ -27,5 +30,9 @@ app.controller('ContactCtrl', ['$scope', function ($scope) {
 
   $scope.submitForm = function () {
     console.log($scope.contactInfo);
-  }
+  };
+}]);
+
+app.controller('MailCtrl', ['$scope', function($scope) {
+
 }]);
