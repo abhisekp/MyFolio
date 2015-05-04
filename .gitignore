@@ -1,0 +1,4 @@
+*.psd
+img/temp/
+.sass-cache
+.gitignore~

@@ -1,0 +1,48 @@
+// compass watch --time -c config/compass.rb -e development -s expanded
+// compass watch --time -c config/compass.rb -e production -s compressed
+
+body {
+  background-color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Georgia, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 { font-size: 200%; }
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
+
+input, textarea, button {
+  font-family: "Open Sans", Georgia, sans-serif;
+  border: none;
+  outline: none;
+}

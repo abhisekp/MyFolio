@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+<head>
+  <meta charset="UTF-8">
+  <title>MyFolio</title>
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>-->
+  <script src="js/angular.js"></script>
+  <script src="js/angular-route.js"></script>
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>-->
+  <script src="js/app.js"></script>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,300,600,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="container">
+    <header class="top" id="top">
+      <div class="top-bar clearfix">
+            <div class="logo" style="background-color: #02918c;">
+                <img src="http://i.imgur.com/IZ7G0Ed.png" alt="MyFolio Logo" title="MyFolic Logo">
+            </div>
+            <nav class="top-menu">
+                <ul class="menu">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#/about-me">About Me</a></li>
+                    <li><a href="#/services">Services</a></li>
+                    <li><a href="#/my-works">My Work</a></li>
+                    <li><a href="#/contact-me">Contact Me</a></li>
+                </ul> <!-- /menu -->
+            </nav> <!-- /top-menu -->
+        </div> <!-- /top-bar -->
+      <div class="main-header">
+        <div class="intro-text">
+        <span>Lorem ipsum dolor sit iusmod tempor</span><br>
+        <span>incididunt bore</span><br>
+        <span>Orem ipsum dolor sit amet, consectetur</span>
+        </div>
+        <div class="moustache"><img src="http://i.imgur.com/ZAc5t7e.png"></div>
+        <div class="know-more">
+          <a href="#">Know More</a>
+        </div>
+      </div><!-- /main-header -->
+    </header> <!-- /top -->
+    <div ng-view></div>
+    <footer>
+      <p>&copy; MyFolio</p>
+    </footer>
+  </div> <!-- /container -->
+
+<!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
+
+</body>
+</html>

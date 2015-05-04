@@ -1,0 +1,621 @@
+/* line 4, scss/_base.scss */
+body {
+  background-color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Georgia, sans-serif;
+}
+
+/* line 11, scss/_base.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 16, scss/_base.scss */
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 22, scss/_base.scss */
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, scss/_base.scss */
+img {
+  border: none;
+  vertical-align: top;
+}
+
+/* line 32, scss/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 37, scss/_base.scss */
+h1 {
+  font-size: 200%;
+}
+
+/* line 38, scss/_base.scss */
+h2 {
+  font-size: 180%;
+}
+
+/* line 39, scss/_base.scss */
+h3 {
+  font-size: 160%;
+}
+
+/* line 40, scss/_base.scss */
+h4 {
+  font-size: 140%;
+}
+
+/* line 41, scss/_base.scss */
+h5 {
+  font-size: 120%;
+}
+
+/* line 42, scss/_base.scss */
+h6 {
+  font-size: 100%;
+}
+
+/* line 44, scss/_base.scss */
+input, textarea, button {
+  font-family: "Open Sans", Georgia, sans-serif;
+  border: none;
+  outline: none;
+}
+
+/* line 4, scss/style.scss */
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* line 10, scss/style.scss */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FFF;
+}
+/* line 18, scss/style.scss */
+.container .top .top-bar {
+  overflow: visible;
+  min-height: 61.2px;
+  background-color: #02918c;
+  /* === LOGO === */
+  /* === NAVIGATION === */
+}
+/* line 24, scss/style.scss */
+.container .top .top-bar .logo {
+  margin-left: 50.9px;
+  margin-top: 17px;
+  float: left;
+}
+/* line 28, scss/style.scss */
+.container .top .top-bar .logo span:first-of-type {
+  color: #FFF;
+  text-shadow: -1px 0 0 #FFF;
+}
+/* line 32, scss/style.scss */
+.container .top .top-bar .logo span:last-of-type {
+  color: #cccc33;
+  text-shadow: -1px 0 0 #cccc33;
+}
+/* line 39, scss/style.scss */
+.container .top .top-bar .top-menu {
+  float: right;
+  margin-right: 19px;
+  margin-top: 22px;
+}
+/* line 44, scss/style.scss */
+.container .top .top-bar .top-menu .menu li {
+  display: inline;
+  vertical-align: top;
+  float: left;
+  width: auto;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+/* line 52, scss/style.scss */
+.container .top .top-bar .top-menu .menu li a, .container .top .top-bar .top-menu .menu li a:link, .container .top .top-bar .top-menu .menu li a:visited {
+  display: block;
+  font-size: 10.8px;
+  font-weight: 800;
+  color: #EAEAEA;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1px;
+  height: 100%;
+  width: 100%;
+  text-shadow: 0 1px 3px #333;
+}
+/* line 65, scss/style.scss */
+.container .top .top-bar .top-menu .menu li a:hover {
+  color: #FFF;
+  text-shadow: 0 0 10px #333;
+}
+/* line 69, scss/style.scss */
+.container .top .top-bar .top-menu .menu li:first-of-type {
+  margin-left: 0;
+}
+/* line 76, scss/style.scss */
+.container .top .main-header {
+  background: url("//i.imgur.com/FtZ5wU3.jpg") no-repeat 0 0;
+  background-color: #996;
+  width: 100%;
+  min-height: 728px;
+  padding-top: 1px;
+}
+/* line 82, scss/style.scss */
+.container .top .main-header .intro-text {
+  color: #FFF;
+  margin-top: 200px;
+  text-align: center;
+}
+/* line 87, scss/style.scss */
+.container .top .main-header .intro-text span:first-of-type {
+  font-size: 30px;
+  letter-spacing: 0.6px;
+  line-height: 1.3;
+}
+/* line 92, scss/style.scss */
+.container .top .main-header .intro-text span:nth-of-type(2) {
+  letter-spacing: 19.6px;
+  font-size: 68px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+/* line 99, scss/style.scss */
+.container .top .main-header .intro-text span:last-of-type {
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+}
+/* line 106, scss/style.scss */
+.container .top .main-header .moustache {
+  margin-top: 47px;
+  text-align: center;
+}
+/* line 110, scss/style.scss */
+.container .top .main-header .know-more {
+  text-align: center;
+  background-color: #CFC91D;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 47px;
+  width: 195px;
+  height: 47px;
+  margin: 0 auto;
+  margin-top: 50px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  transition: background-color 0.5s ease-out;
+}
+/* line 123, scss/style.scss */
+.container .top .main-header .know-more:hover {
+  color: #000;
+  text-shadow: 0 0 0.1px #333;
+  cursor: default;
+  cursor: pointer;
+  background-color: #FFF824;
+}
+/* line 130, scss/style.scss */
+.container .top .main-header .know-more a,
+.container .top .main-header .know-more a:link,
+.container .top .main-header .know-more a:visited {
+  color: #0B1016;
+  text-decoration: none;
+}
+/* line 139, scss/style.scss */
+.container .about-me {
+  min-height: 735px;
+  background-color: #FFF;
+  padding-top: 1px;
+}
+/* line 144, scss/style.scss */
+.container .about-me > h1:first-child {
+  margin-top: 82px;
+  font-size: 46px;
+  color: #02918C;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+/* line 153, scss/style.scss */
+.container .about-me > span:first-of-type {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-top: 14px;
+  color: #7E8287;
+}
+/* line 160, scss/style.scss */
+.container .about-me > p:first-of-type {
+  text-align: center;
+  max-width: 877px;
+  color: #7E8287;
+  font-size: 16px;
+  line-height: 2;
+  margin: 20px auto 0;
+}
+/* line 167, scss/style.scss */
+.container .about-me > p:first-of-type span:first-of-type {
+  font-size: 23px;
+  font-weight: 800;
+}
+/* line 172, scss/style.scss */
+.container .about-me .list-item {
+  text-align: center;
+  display: table;
+  margin: 110px auto 0;
+}
+/* line 176, scss/style.scss */
+.container .about-me .list-item > div {
+  width: 288px;
+  display: inline-block;
+  border-right: 1px solid #7E8287;
+  border-collapse: collapse;
+  display: table-cell;
+  color: #7E8287;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+/* line 185, scss/style.scss */
+.container .about-me .list-item > div h4 {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-top: 30px;
+}
+/* line 191, scss/style.scss */
+.container .about-me .list-item > div p {
+  font-size: 11px;
+  line-height: 2;
+  margin-top: 20px;
+}
+/* line 197, scss/style.scss */
+.container .about-me .list-item > div:last-of-type {
+  border-right: none;
+}
+/* line 202, scss/style.scss */
+.container .services {
+  background: url("//i.imgur.com/bTk78Rf.jpg") no-repeat right;
+  background-color: #F0F0E8;
+  min-height: 728px;
+  padding-top: 1px;
+}
+/* line 207, scss/style.scss */
+.container .services > div {
+  width: 43.7%;
+  margin-top: 59px;
+  margin-left: 92px;
+}
+/* line 211, scss/style.scss */
+.container .services > div > h1 {
+  text-transform: uppercase;
+  color: #02918C;
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+/* line 218, scss/style.scss */
+.container .services > div > span {
+  color: #7E8287;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 24px;
+}
+/* line 224, scss/style.scss */
+.container .services > div > p {
+  margin-top: 11px;
+  line-height: 2.5;
+  width: 94%;
+}
+/* line 231, scss/style.scss */
+.container .services .list-item > div {
+  width: 50%;
+  float: left;
+  margin-top: 50px;
+  padding-right: 20%;
+  box-sizing: border-box;
+}
+/* line 237, scss/style.scss */
+.container .services .list-item > div h4 {
+  font-size: 16px;
+  margin-top: 13px;
+  letter-spacing: 0.3px;
+}
+/* line 242, scss/style.scss */
+.container .services .list-item > div p {
+  font-size: 11px;
+  line-height: 2;
+  margin-top: 9px;
+}
+/* line 250, scss/style.scss */
+.container .my-works {
+  padding-top: 1px;
+}
+/* line 252, scss/style.scss */
+.container .my-works > h1 {
+  margin-top: 95px;
+  text-align: center;
+  color: #02918C;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 46px;
+}
+/* line 260, scss/style.scss */
+.container .my-works > span {
+  font-size: 16px;
+  line-height: 1.2;
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  color: #7E8287;
+}
+/* line 268, scss/style.scss */
+.container .my-works > p {
+  font-size: 16px;
+  line-height: 2.4;
+  text-align: center;
+  width: 685px;
+  margin: 16px auto 0;
+  color: #7E8287;
+}
+/* line 276, scss/style.scss */
+.container .my-works > div {
+  margin-top: 68px;
+}
+/* line 278, scss/style.scss */
+.container .my-works > div > div {
+  position: relative;
+  float: left;
+}
+/* line 281, scss/style.scss */
+.container .my-works > div > div img {
+  width: 320px;
+  height: 239px;
+}
+/* line 285, scss/style.scss */
+.container .my-works > div > div div {
+  width: 320px;
+  height: 239px;
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 25px solid transparent;
+  color: #FFF;
+  background-color: rgba(3, 126, 122, 0.8);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-clip: padding-box;
+  transition: opacity 0.5s ease-out;
+}
+/* line 300, scss/style.scss */
+.container .my-works > div > div div:hover {
+  opacity: 1;
+  cursor: default;
+  cursor: pointer;
+}
+/* line 305, scss/style.scss */
+.container .my-works > div > div div h6 {
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 19px;
+}
+/* line 310, scss/style.scss */
+.container .my-works > div > div div p {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+/* line 319, scss/style.scss */
+.container .contact-me {
+  padding-top: 1px;
+}
+/* line 321, scss/style.scss */
+.container .contact-me > h1 {
+  margin-top: 82px;
+  font-weight: 800;
+  font-size: 46px;
+  color: #02918c;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* line 330, scss/style.scss */
+.container .contact-me > span {
+  margin-top: 12px;
+  display: block;
+  color: #7e8287;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 337, scss/style.scss */
+.container .contact-me > p {
+  width: 54%;
+  margin: 18px auto 0;
+  line-height: 2;
+  text-align: center;
+}
+/* line 343, scss/style.scss */
+.container .contact-me > div {
+  margin-top: 69px;
+  background-color: #0B0B0B;
+  min-height: 565px;
+  color: #7e8287;
+  text-align: center;
+  padding-top: 1px;
+}
+/* line 351, scss/style.scss */
+.container .contact-me > div form {
+  width: 917px;
+  margin: 64px auto 0;
+}
+/* line 355, scss/style.scss */
+.container .contact-me > div form label {
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+/* line 362, scss/style.scss */
+.container .contact-me > div form label:first-of-type {
+  margin: 0px auto 0;
+}
+/* line 366, scss/style.scss */
+.container .contact-me > div form label:nth-of-type(2) {
+  margin: 57px auto 0;
+}
+/* line 370, scss/style.scss */
+.container .contact-me > div form label:nth-of-type(3) {
+  margin: 47px auto 0;
+}
+/* line 374, scss/style.scss */
+.container .contact-me > div form input {
+  display: block;
+  background-color: transparent;
+  border-bottom: 1px solid #898989;
+  margin: 0 auto 0;
+  color: #FFF;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+/* line 384, scss/style.scss */
+.container .contact-me > div form input:focus, .container .contact-me > div form input:hover {
+  border-bottom-color: #FFF;
+}
+/* line 388, scss/style.scss */
+.container .contact-me > div form input#name, .container .contact-me > div form input#email {
+  width: 70%;
+}
+/* line 392, scss/style.scss */
+.container .contact-me > div form textarea#message {
+  resize: none;
+  border: 1px solid #898989;
+  width: 100%;
+  height: 90px;
+  margin: 15px auto 0;
+  background-color: transparent;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: auto;
+}
+/* line 407, scss/style.scss */
+.container .contact-me > div form textarea#message:hover, .container .contact-me > div form textarea#message:focus {
+  border-color: #FFF;
+}
+/* line 413, scss/style.scss */
+.container .contact-me > div form button {
+  display: block;
+  margin: 30px auto 0;
+  color: #0b1016;
+  background-color: #cfc91d;
+  width: 196px;
+  height: 47px;
+  line-height: 47px;
+  font-weight: 800;
+  font-size: 14px;
+  transition: background-color 0.5s ease-out;
+}
+/* line 425, scss/style.scss */
+.container .contact-me > div form button:hover {
+  cursor: default;
+  cursor: pointer;
+  color: #000;
+  text-shadow: 0 0 0.1px #333;
+  background-color: #FFF824;
+}
+/* line 433, scss/style.scss */
+.container .contact-me > div form button:disabled {
+  background-color: #333;
+  cursor: wait;
+  color: #0b1016;
+}
+/* line 440, scss/style.scss */
+.container .contact-me > div form .form-errors {
+  color: #FFF;
+  font-size: 14px;
+  font-family: monospace;
+  margin-top: 20px;
+}
+/* line 446, scss/style.scss */
+.container .contact-me > div form .form-errors li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+/* line 454, scss/style.scss */
+.container > footer {
+  background-color: #000;
+  color: #7e8287;
+  height: 79px;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 1px;
+}
+/* line 462, scss/style.scss */
+.container > footer p {
+  padding-top: 1px;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 471, scss/style.scss */
+.sprite {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  background: url("//i.imgur.com/gjm5Zbu.png") no-repeat top left;
+  width: 33px;
+  height: 33px;
+}
+/* line 484, scss/style.scss */
+.sprite.light {
+  background-position: -5px -5px;
+}
+/* line 487, scss/style.scss */
+.sprite.pencil {
+  background-position: -40px -5px;
+}
+/* line 490, scss/style.scss */
+.sprite.gear {
+  background-position: -75px -5px;
+}
+/* line 493, scss/style.scss */
+.sprite.screen {
+  background-position: -110px -5px;
+}
+/* line 496, scss/style.scss */
+.sprite.globe {
+  background-position: -5px -40px;
+}
+/* line 499, scss/style.scss */
+.sprite.lens {
+  background-position: -40px -40px;
+}
+/* line 502, scss/style.scss */
+.sprite.clock {
+  background-position: -75px -40px;
+}
+/* line 505, scss/style.scss */
+.sprite.histogram {
+  background-position: -110px -40px;
+}
